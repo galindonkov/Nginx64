@@ -32,6 +32,10 @@ apt-get install -y nfs-common
 # Without libdbus virtualbox would not start automatically after compile
 apt-get -y install --no-install-recommends libdbus-1-3
 
+#Install nginx
+apt-get install -y nginx
+apt-get install -y curl
+
 # Install Linux headers and compiler toolchain
 apt-get -y install build-essential linux-headers-$(uname -r)
 
